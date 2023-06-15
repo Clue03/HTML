@@ -12,7 +12,14 @@ li{list-style: none;}
 /* 2. 페이지 구성하기 */
 body{
     width: 960px; margin: 0 auto;
-    background: #E6E6E6;
+    background: #cefcff;
+}
+
+hr{
+    size: 5px;
+    color: #C8C8C8;
+    border: 0;
+    border-top: 5px dashed #e4e2e2;
 }
 
 #paper-wrapper{
@@ -123,7 +130,7 @@ body{
 }
 #main-aside{
     float: right;
-    width: 200px;
+    width: 100px;
 }
 
 /* 6. 본무 추가하기 (본문 포스트 위쪽) */
@@ -153,3 +160,57 @@ article{
     color: #6C6C6C;
 }
 
+/* 첫번째 슬라이드 이미지 */
+div.item:nth-child(1) {
+    width: 430px;
+    height: 280px;
+}
+div.item:nth-child(2) {
+   
+    width: 430px;
+    height: 280px;
+}
+div.item:nth-child(3) {   
+    width: 430px;
+    height: 280px;
+}
+div.item:nth-child(4) {    
+    width: 430px;
+    height: 280px;
+}
+div.item:nth-child(5) {    
+    width: 430px;
+    height: 280px;
+}
+
+/* 두번째 슬라이드 이미지 */
+div.item1:nth-child(1) {   
+    width: 430px;
+    height: 280px;
+}
+div.item1:nth-child(2) {   
+    width: 430px;
+    height: 280px;
+}
+div.item1:nth-child(3) {  
+    width: 430px;
+    height: 280px;
+}
+div.item1:nth-child(4) {
+    width: 430px;
+    height: 280px;
+}
+div.item1:nth-child(5) { 
+    width: 430px;
+    height: 280px;
+}
+
+img{
+    width: 430px;
+    height: 280px;
+}
+
+.left, .right{
+    width: 28px;
+    height: 28px;
+}
